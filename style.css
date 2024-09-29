@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Scroll bar'ları gizle */
+    font-family: Arial, sans-serif;
+    color: white; /* Yazı rengini beyaz yap */
+    text-align: center;
+    background-color: #000; /* Arka planı siyah yap */
+}
+
+.shortcut-tips {
+    position: fixed; /* Sabit konumda tut */
+    bottom: 20px; /* Alt kenardan 20px yukarıda */
+    right: 20px; /* Sağ kenardan 20px içeride */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10; /* Üstte görünmesi için */
+}
+
+#wordPairs {
+    margin: 20px;
+}
+
+.word-card {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 5; /* Kartların ön planda görünmesi için */
+}
+
+.word-card.green {
+    background-color: #28a745; /* Doğru eşleşme rengi */
+}
+
+.word-card.red {
+    background-color
+audio {
+  margin-top: 20px;
+  width: 300px;
+}
